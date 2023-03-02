@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(201, 222, 255);
+	padding: 10vw;
+}
+
+.main-box {
+	display: flex;
+	flex-direction: row;
+	margin: 5vw;
+}
+
+.small-box, .smaller-box {
+	flex: 1;
+	border: rgb(107, 118, 135);
+	border-style: solid;
+	border-radius: 5px;
+	margin: 2vw;
+	text-align: center;
+}
+
+.smaller-box + .smaller-box-words {
+	color: rgb(255, 0, 21);
+	font-weight: 700;
+}
+
+.smaller-box > .smaller-box-words {
+	color: rgb(251, 0, 255);
+	font-weight: 700;
+	font-size: 10vh;
+}
+
+p {
+	font-size: 10vh;
+}
